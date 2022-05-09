@@ -3,7 +3,7 @@
 names = ['jan kowlaski', 'tomasz kwiatkowski', 'michaal glowala', 'szymon przecier', 'jan jankowski', 'everest pierskowski', 'ostatni ostatniewski']
 
 print ( names )
-print ( *names, sep=", " )
+print ( *names, sep = ", " )
 
 # If you will just print list, it will be printed raw.
 
@@ -58,7 +58,7 @@ print ( games_i_would_like_to_play_again )
 print ( best_of_all )
 print ( last_one )
 print ( not_played )
-print ( *fav_games, sep=", " )
+print ( *fav_games, sep = ", " )
 
 
 
@@ -72,7 +72,7 @@ print ( bicycles[-2].title() )
 print ( bicycles[-3].title() )
 print ( bicycles[-4].title() )
 print ( bicycles[-5].title() )
-print ( *bicycles, sep=", " )
+print ( *bicycles, sep = ", " )
 
 # Paul 02.05.2022 index position start at 0, not at 1
 # Paul 03.05.2022 [-1] will print the last position on the list, [-2] second from the end, and so forth...
@@ -103,4 +103,5 @@ message2 = f"\n{ bicycles2[0] }, { bicycles2[1] }, { bicycles2[2] }, { bicycles2
 message1 = message2.upper()
 
 print ( message1 )
-print ( *bicycles2, sep=", " )
+print ( *bicycles2, sep = ", " )
+print ( *message1, sep = " " ) # noice XD
