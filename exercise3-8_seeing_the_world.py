@@ -32,8 +32,6 @@ print ( sorted(cars) )
 print ( '- And original list again:' )
 print ( cars )
 
-# Paul 09.05.2022 - I like it, that I kinda... sorted it out... #extremedrydadjoke
-
 print ( '\nSorting list in reverse (without sorting alphabetically - just plain reverse as it is):')
 cars.reverse()
 print ( cars )
@@ -49,3 +47,6 @@ print ( cars )
 
 print ( '\nIdentify lenght of the list by using len() function:' )
 print ( len( cars ) ) # Paul 09.05.2022 - len() function should be printed between ( )
+
+
+# Paul 09.05.2022 - I'm glad, that I kinda... sorted it out... #extremedrydadjoke
