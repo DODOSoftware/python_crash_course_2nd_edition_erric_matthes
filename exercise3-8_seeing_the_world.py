@@ -1,6 +1,5 @@
 
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 print ( '\n\n' )
 # Paul 09.05.2022 - sorting lists by .sort() method - easy and PERMANENT
 
@@ -49,4 +48,4 @@ print ( '\nIdentify lenght of the list by using len() function:' )
 print ( len( cars ) ) # Paul 09.05.2022 - len() function should be printed between ( )
 
 
-# Paul 09.05.2022 - I'm glad, that I kinda... sorted it out... #extremedrydadjoke
+# Paul 09.05.2022 - I'm glad, that I kinda... sorted... it... out... #extremedrydadjoke
