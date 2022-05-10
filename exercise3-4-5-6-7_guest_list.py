@@ -24,6 +24,9 @@ print ( invitation4 )
 print ( invitation5 )
 print ( invitation6 )
 
+guest_number = f"Total guests number: { len( guest_list ) }."
+print ( guest_number )
+
 
 
 
@@ -49,6 +52,8 @@ print ( invitation4 )
 print ( invitation5 )
 print ( invitation6 )
 
+guest_number = f"Total guests number: { len( guest_list ) }."
+print ( guest_number )
 
 
 
@@ -85,6 +90,8 @@ print ( invitation7 )
 print ( invitation8 )
 print ( invitation9 )
 
+guest_number = f"Total guests number: { len( guest_list ) }."
+print ( guest_number )
 
 
 
@@ -108,6 +115,9 @@ print ( message )
 del guest_list[1], guest_list[0]
 
 print ( f"Is any one on the { guest_list }??? No...." ) # Paul 09.05.2022 - funny square brackets are at the end :)
+
+guest_number = f"Total guests number: { len( guest_list ) }."
+print ( guest_number )
 
 
 
