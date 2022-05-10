@@ -132,5 +132,19 @@ print ( home_gym_eq )
 how_many_after = f'\nHow many equipments after adjustments are made: { len( home_gym_eq ) }.'
 print ( how_many_after )
 
-but_why = f"\nWhy? I tell you why - it's because { shitty0 }, { shitty1 }, { shitty2 } and { shitty3 } are fucking useless shit. That's why."
+but_why = f"\nWhy? I tell you why - because { shitty0 }, { shitty1 }, { shitty2 } and { shitty3 } are fucking useless shit. That's why."
 print ( but_why )
+
+'''
+
+HIDDEN MESSAGE:
+
+I'M INTO BDSM:
+
+B - BENCH PRESS,
+D - DEADLIFT,
+S - SQUAT,
+M - MILITARY PRESS.
+
+
+'''
