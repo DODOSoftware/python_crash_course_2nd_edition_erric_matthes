@@ -135,6 +135,27 @@ print ( how_many_after )
 but_why = f"\nWhy? I tell you why - because { shitty0 }, { shitty1 }, { shitty2 } and { shitty3 } are fucking useless shit. That's why."
 print ( but_why )
 
+# Paul 10.05.2022 - now time to sort this list.
+
+print ( f'\nPRINT SORTED:\n { sorted( home_gym_eq ) }' )
+print ( f'\nPRINT SORTED IN REVERSE:\n { sorted( home_gym_eq, reverse = True ) }' ) # Paul 10.05.2022 - HA!
+
+home_gym_eq.reverse()
+print ( f'\nPRINT REVERSE:\n { home_gym_eq }' )
+
+home_gym_eq.reverse()
+print ( f'\nREVERSE AGAIN:\n { home_gym_eq }' )
+
+home_gym_eq.sort()
+print ( f'\nPRINT SORT():\n { home_gym_eq }' )
+
+home_gym_eq.sort( reverse = True )
+print ( f'\nPRINT SORT() IN REVERSE:\n { home_gym_eq }' )
+
+# Paul 10.05.2022 - guess that's it?
+
+
+
 '''
 
 HIDDEN MESSAGE:
