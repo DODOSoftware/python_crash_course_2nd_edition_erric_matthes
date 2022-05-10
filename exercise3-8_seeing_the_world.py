@@ -32,7 +32,7 @@ print ( sorted(cars) )
 print ( '- And original list again:' )
 print ( cars )
 
-# Paul 09.05.2022 - I like it kinda... sorted... #extremedrydadjoke
+# Paul 09.05.2022 - I like it, that I kinda... sorted it out... #extremedrydadjoke
 
 print ( '\nSorting list in reverse (without sorting alphabetically - just plain reverse as it is):')
 cars.reverse()
