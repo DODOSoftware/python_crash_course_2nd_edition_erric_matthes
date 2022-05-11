@@ -98,3 +98,18 @@ for value in range( 1, 11 ):
 	square = value ** 2
 	squares.append( square )
 	print ( squares )
+
+
+
+print ( '\n\nMinimum, maximum and sum of a list of numbers:' )
+
+digits = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 ]
+
+minimal = f'The minimal digit on the list is: { min( digits ) }.'
+print ( minimal )
+
+maximum = f'The maximal digit on the list is: { max( digits ) }.'
+print ( maximum )
+
+summary = f'The sum of all digits on the list is: { sum( digits ) }.'
+print ( summary )
