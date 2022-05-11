@@ -4,7 +4,7 @@
 
 # Paul 10.05.2022 - looping for for looping
 
-print ( '\nLOOP "FOR" FOR GUESTS:' )
+print ( '\nLOOP "FOR" GUEST "IN" GUESTS:' )
 
 guests = [ 'albert einstein', 'elon musk', 'marek jurek', 'socrates', 'adam zborowski' ]
 for guest in guests:
