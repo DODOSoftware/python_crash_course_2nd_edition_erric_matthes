@@ -73,7 +73,7 @@ The output was:
 [1, 2, 3, 4, 5, 6, 7, 8]
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-So that was interesting, but got nowhere near what I wanted.'''
+So that was interesting, but got nowhere near what I wanted. LEarned to build one side of the pyramid tho XD '''
 
 print ( '\nWith temporarily value "square":')
 squares = []
