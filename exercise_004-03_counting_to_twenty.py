@@ -83,9 +83,6 @@ for value in range( 1, 11 ):
 print ( squares )
 
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-# # # # # # # # # # # # # # # # # # # # # WE LIKE CONSICE CODE RIGHT? # # # # # # # # # # # # # # # # # # # # # #
-
 
 print ( '\n\n\nMORE CONSICELY - WITHOUT TEMP VALUE "SQUARE":' )
 squares = []
@@ -94,7 +91,6 @@ for value in range( 1, 11 ):    # Paul 11.05.2022 - watch for last int in the ra
 print ( squares )
 
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 print ( '\n\n\nAnd now for that mistake with indent in print() call inside the loop:' )
 squares = []
