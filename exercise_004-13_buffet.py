@@ -1,7 +1,18 @@
+# Exercise 004-13 Buffet:
+buffet_foods = ('rice', 'chicken', 'fries', 'rancid meat', 'frog eyes')
+for buffet_food in buffet_foods:
+	print(buffet_food)
+
+print('\n')
+
+buffet_foods = ('rice', 'chicken', 'fries', 'red meat', 'salad')
+for buffet_food in buffet_foods:
+	print(buffet_food)
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 diemnsions = (200, 50) # Paul 12.05.2022 for tuple you use parentheses, and really a coma...
-print('A tuple:')
+print('\n\nA tuple:')
 print(diemnsions[0])
 print(diemnsions[1])
 
