@@ -2,6 +2,13 @@
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+'''
+
+== if match True
+!= if match False!
+
+'''
+
 print('\nSimple "if" (True/False) in the loop "for":')
 
 cars = ['audi', 'bmw', 'subaru', 'toyota', 'skoda']
