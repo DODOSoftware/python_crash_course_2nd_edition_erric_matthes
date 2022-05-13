@@ -38,3 +38,8 @@ print(f'\nNew dimensions printed as list: {diemnsions}.')
 print('\nNew diemnsions loop:')
 for diemnsion in diemnsions: # and loop it (kto k**** wymyślił słowo "iteracja"?! bardzo chciałbym poznać tego człowieka...)
 	print(diemnsion)
+
+
+
+# Paul 13.05.2022 - about time to make lenght line 80 characters in my editor.
+# Paul 13.05.2022 - check for tab = 4 spaces
