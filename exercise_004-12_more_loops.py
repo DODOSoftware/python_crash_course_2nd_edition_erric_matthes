@@ -20,7 +20,7 @@ print ('\nAll items in .title():')
 for item in items:
 	print (item.title())
 
-movies = [ 'terminator 1', 'termiantor 2', 'predator', 'leon', 'taxi driver', 'godfather', 'the matrix', 'gladiator', 'lord of the rings', 'shrek', 'green mile', 'the silence of the lambs', 'fight club (you dont talk about it)', 'pulp fiction', 'cast away', 'american beauty', 'gran torino', 'i am legend', 'the walking dead series', 'interstellar', 'goonies', 'the departed', 'goodfellas', 'untouchables', 'million dollar baby', 'scarface', 'the shawshank redemption', 'saving private ryan', 'fury', 'braveheart', 'apocalypse now', 'the good, the bad and the ugly', 'the snatch', 'man in black', 'shichinin no samurai', 'alien', 'aliens', 'black hawk down', 'blow', 'unforgiven', 'raiders of the lost ark', 'dances with wolves', '2001: a space odyssey', 'dune', 'john wick', 'the blues brothers' ]
+movies = ['terminator 1', 'termiantor 2', 'predator', 'leon', 'taxi driver', 'godfather', 'the matrix', 'gladiator', 'lord of the rings', 'shrek', 'green mile', 'the silence of the lambs', 'fight club (you dont talk about it)', 'pulp fiction', 'cast away', 'american beauty', 'gran torino', 'i am legend', 'the walking dead series', 'interstellar', 'goonies', 'the departed', 'goodfellas', 'untouchables', 'million dollar baby', 'scarface', 'the shawshank redemption', 'saving private ryan', 'fury', 'braveheart', 'apocalypse now', 'the good, the bad and the ugly', 'the snatch', 'man in black', 'shichinin no samurai', 'alien', 'aliens', 'black hawk down', 'blow', 'unforgiven', 'raiders of the lost ark', 'dances with wolves', '2001: a space odyssey', 'dune', 'john wick', 'the blues brothers']
 print ("\nNice movies:")
 for movie in movies:
 	print (movie.title())
