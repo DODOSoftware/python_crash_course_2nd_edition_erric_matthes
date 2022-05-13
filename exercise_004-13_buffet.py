@@ -1,13 +1,16 @@
 # Exercise 004-13 Buffet:
+
 buffet_foods = ('rice', 'chicken', 'fries', 'rancid meat', 'frog eyes')
 for buffet_food in buffet_foods:
-	print(buffet_food)
+	print(buffet_food.title())
 
 print('\n')
 
 buffet_foods = ('rice', 'chicken', 'fries', 'red meat', 'salad')
 for buffet_food in buffet_foods:
-	print(buffet_food)
+	print(buffet_food.title())
+
+
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -29,5 +32,5 @@ diemnsions = [400, 100] # redefine
 print(f'\nNew dimensions printed as list: {diemnsions}.')
 
 print('\nNew diemnsions loop:')
-for diemnsion in diemnsions: # and loop (kto k**** wymyślił słowo "iteracja"?! bardzo chciałbym poznać tego człowieka...)
+for diemnsion in diemnsions: # and loop it (kto k**** wymyślił słowo "iteracja"?! bardzo chciałbym poznać tego człowieka...)
 	print(diemnsion)
