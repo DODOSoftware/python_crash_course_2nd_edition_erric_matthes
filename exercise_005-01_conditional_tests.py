@@ -105,6 +105,89 @@ swim_item14 = 'fins'
 if swim_item14 == 'fins':
     print(f"We don't have {swim_item14}!")
 
+# Exercise 005-02 More conditional tests:
+
+
+print('\nMore conditional tests:')
+# Paul 14.05.2022 please don't mind what values contain...
+
+rabbit_1 = 'Rapek'
+rabbit_2 = 'Kofi'
+if rabbit_1.lower() == 'rapek':
+    print('\nOur first mini rabbit is called Rapek.')
+if rabbit_2.lower() == 'kofi':
+    print('Our second mini rabbit is called Kofi.')
+if rabbit_1.lower() != 'kofi':
+    print('\nRapek was first, not Kofi.')
+if rabbit_2.lower() != 'rapek':
+    print('Kofi is our second mini rabbit, she is in lion type.')
+
+if (rabbit_1.lower() == 'rapek') and (rabbit_2.lower() == 'kofi'):
+    print('\nWe have two of them, Rapek "and" Kofi.')
+
+if (rabbit_1.lower() == 'rapek') or (rabbit_2.lower() == 'kofi'):
+    print('We still have two of them, even I use "or".')
+
+
+print('\nPrint "and" and "or" tests with lists:')
+
+dogs = ['belgian malinois', 'dutch shepherd dog', 'german shepherd', 'swiss shepherd', 'french shepherd dog bauceron', 'american pit bull terier']
+fav_dog = 'belgian malinois'
+
+if fav_dog in dogs:
+    print('I love belgian malinois dogs.')
+if 'chihuahua' not in dogs:
+    print("I don't like small dogs like chihuahua really...")
+if 'shepherd' in dogs:      # Paul 14.05.2022 How to run test for a single word?
+    print('Hey! We have shepherd dogs in list also!')
+else:                       # Paul 14.05.2022 I'll use "else" for now...
+    print("We have shepherd dogs in list also, but I don't know how to chceck for silnge word yet.")
+
+print('\nSimple numerical tests:')
+
+first_value = 26
+second_value = 30
+third_value = first_value + second_value
+
+if first_value == 26:
+    print('== First value equals 26.')
+else:
+    print('== First value does not eqaul 26.')
+
+if first_value != 26:
+    print('!= First value does not eqaul 26!')
+else:
+    print('!= First value equals 26!')
+
+if third_value == 56:
+    print('first value + second value = 56')
+else:
+    print('first value + second value =/= 56')
+
+if first_value > second_value:
+    print('> First value is greater than second value.')
+else:
+    print('> First value is lesser than second value.')
+
+if first_value < second_value:
+    print('< First value is lesser than second value!')
+else:
+    print('< First value is greater than second value!')
+
+if first_value <= 17:
+    print("You're too young to drink alcohol.")
+else:
+    print("Your age is valid to drink alcohol.")
+
+if second_value >= 20:
+    print("Some message, dunno...")
+else:
+    print("Other message...")
+
+banned_user = "Ewunia"
+if banned_user.lower() == 'ewunia':
+    print("\nYou're banned from here!")
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 '''
