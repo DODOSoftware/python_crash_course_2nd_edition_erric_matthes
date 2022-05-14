@@ -142,7 +142,7 @@ if 'shepherd' in dogs:      # Paul 14.05.2022 How to run test for a single word?
 else:                       # Paul 14.05.2022 I'll use "else" for now...
     print("We have shepherd dogs in list also, but I don't know how to chceck for silnge word yet.")
 
-print('\nSimple numerical tests:')
+print('\nSimple numerical tests, starting with "if-else":')
 
 first_value = 26
 second_value = 30
@@ -186,6 +186,8 @@ else:
 banned_user = "Ewunia"
 if banned_user.lower() == 'ewunia':
     print("\nYou're banned from here!")
+else:
+    print("Nah, you're still banned XD")
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
