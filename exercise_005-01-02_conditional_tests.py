@@ -107,7 +107,6 @@ if swim_item14 == 'fins':
 
 # Exercise 005-02 More conditional tests:
 
-
 print('\nMore conditional tests:')
 # Paul 14.05.2022 please don't mind what values contain...
 
@@ -256,10 +255,8 @@ if car.lower() == 'audi':
 in equality test. It also doesn't chage the value of the original viarable.'''
 print(car)
 
-
 '''NOTE: e.g. when site user is submitted, code will change existing "John"
 into .lower() and reject any variation of it, like "john", "johN", etc.'''
-
 
 required_toppings = ['mushrooms', 'onion', 'cheddar cheese']
 if required_toppings != 'anchoveis':
@@ -280,7 +277,6 @@ answer = 17
 if answer != 42:
     print('\nThat is not correct answer. Please try again!')
 
-
 print('\n"if" age, than (LOGIC HERE PLEASE):')
 
 age = 18                           # Paul 13.05.2022 age threshold in PL is 18yo
@@ -288,7 +284,6 @@ if age < 18:                       # LESS THAN (YEAH SCIENCE! - J. PINKMAN)
     print('INVALID AGE!')
 if age >= 18:                      # GREATER THAN OR EQUAL
     print('VALID AGE!')
-
 
 print('\nChecking multipe conditions with "and":')
 # Paul 13.05.2022 - both True simultaneously.
