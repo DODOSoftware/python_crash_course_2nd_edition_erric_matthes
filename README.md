@@ -1,4 +1,4 @@
-# python_starting_exercises
+# python_crash_course_2nd_edition_erric_matthes_exercises_and_notes
 Common exercises and learning basics from Eric Matthes book of Python Crash Course, 2nd edition.
 
 ...yeah yeah, I know - I use drag'n'drop, just give me some time ok, Adam? :P
