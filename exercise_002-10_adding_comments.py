@@ -1,9 +1,7 @@
-
 ''' Paul 01.05.2022 - universe age written with undercorses for better visiblity
 will be printed without them as 14000000000.'''
 universe_age = 14_000_000_000
 print(universe_age)
-
 
 ''' Paul 01.05.2022 - the 'f' stands for 'format' and give you ability
 to add variables in strings, combining them.'''
