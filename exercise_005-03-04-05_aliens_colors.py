@@ -39,7 +39,7 @@ if age >= 18:
     print("Have you registered to vote yet?")
     print("Click here for register!")
     print("Come on do it! Come on!")
-    print("GO TO DA CHOPPA! COME ON!")
+    print("RUN! GO TO DA CHOPPA!!")
     # Paul 14.05.2022 ^ famous Arnold Shwarzenegger quote.
 else:
     print("\nSorry, you're not enough old to vote.")
