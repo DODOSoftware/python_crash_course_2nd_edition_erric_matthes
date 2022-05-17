@@ -68,3 +68,19 @@ else:                                             # 'else'  - NOT indented
 'if' requested toppings list is not empty. If requested_toppings passess the
 conditional test, Python runs 'for' loop from earlier example. If conditional
 test Fail, Python prints a message to the customer.'''
+
+car_parts = ['bumper', 'brake booster', 'silencer', 'radiator fan', 'coil spring']
+for car_part in car_parts:
+    print(car_part)
+
+car_parts = []
+if car_part in car_parts:
+    for car_part in car_parts:
+        print(f"Adding {car_part} to cart.")
+    print("Go to cart.")
+    print("Continue buying.")
+else:
+    print("\nThere are no items in the cart.")
+
+''' Paul 17.05.2022 it appears that you need to specify variable first, and than
+add if-else for empty lists.'''
