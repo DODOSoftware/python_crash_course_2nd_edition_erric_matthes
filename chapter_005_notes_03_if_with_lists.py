@@ -67,7 +67,4 @@ else:                                             # 'else'  - NOT indented
 '''In this example, before we start a 'for' loop, we do a quick check,
 'if' requested toppings list is not empty. If requested_toppings passess the
 conditional test, Python runs 'for' loop from earlier example. If conditional
-test Fail, Python prints a message to the customer.
-
-The other form of the loop would not allow to go further, without ordering
-for example a car parts, etc'''
+test Fail, Python prints a message to the customer.'''
