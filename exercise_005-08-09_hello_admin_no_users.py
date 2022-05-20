@@ -21,9 +21,9 @@ for user in users:
 print("\nChecking if list is empty:")
 '''Paul 19.05.2022 again variables need to be defined realier in the code! '''
 
-users = []
+users = [] # Paul 20.05.2022 empty list is read as False!
 
-if users is not None:
+if users:
     for user in users:
         if user.lower() == 'admin':
             print('Hello Admin, would you like to see a status reports?')
