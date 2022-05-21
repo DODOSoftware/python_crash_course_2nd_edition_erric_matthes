@@ -1,9 +1,9 @@
-''' Chapter 006 NOTES - Dictionaries
+'''Chapter 006 NOTES - Dictionaries
 
-Dictionairy is a collection of key-value pairs. Each key is connected to the
+Dictionary is a collection of key-value pairs. Each key is connected to the
 value, and you use keys to access their values. Key's value can be everything,
-a number, a string, a list or other dictionairy. You can use any object created
-in Python as a value in the dictionairy. And you can use as many key-value 
+a number, a string, a list or other dictionary. You can use any object created
+in Python as a value in the dictionary. And you can use as many key-value
 pairs as you want.
 
 Dictionaries are dynamic structures.'''
@@ -25,6 +25,12 @@ print(alien_2['points'])'''
 
 new_points = alien_0['points']
 print(f"You've earned {new_points} points!")
+
+'''Paul 21.05.2022 if you run this code every time the alien got shot down,
+the alien's point value will be retrieved.
+
+in other words - run code everytime you need retrieve a value from
+the dictionary'''
 
 
 # Paul 21.05.2022 inverting key-value:
