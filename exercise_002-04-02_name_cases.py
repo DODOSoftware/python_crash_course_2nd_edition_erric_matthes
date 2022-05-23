@@ -1,8 +1,6 @@
-''' kropka po nazwie zmiennej 'name' wskazuje pyhtonowi, że metoda 'title'
-ma zostać do niej zastosowana. metoda 'title' zmienia pierwsze litery na duże,
-a podwójny nawias wskazje metodom dodatkowe informacje - metoda 'title'
-nie wymaga dodatkowych informacji. Zmiany wielkości liter można również uzyskać
-przez metody 'upper' oraz 'lower'.'''
+# period after variable name points Pyton, that method title should be applied.
+# inside parentheses points additional info to the method,
+# but title method does not require additional notes.
 
 name = "john wick"
 print(name.title())

@@ -1,4 +1,4 @@
-# Exercise 004-06 List of odd numbers
+# Exercise 004-06 List of odd numbers:
 
 odd_numbers = list(range(1, 21, 2))
 

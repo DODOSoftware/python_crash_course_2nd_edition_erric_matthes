@@ -1,4 +1,5 @@
-places = ['norway', 'usa', 'san giovani rotondo italy', 'canada', 'japan', 'thailand', 'bora-bora', 'the maldives', 'philiphines', 'greece']
+places = ['norway', 'usa', 'san giovani rotondo italy', 'canada', 'japan',
+          'thailand', 'bora-bora', 'the maldives', 'philippines', 'greece']
 print(f'Places we want to go:')
 print(places)
 
@@ -21,5 +22,5 @@ places.sort()
 print(places)
 
 print('\nAnd at last .sort() in reverse:')
-places.sort(reverse = True)
+places.sort(reverse=True)
 print(places)

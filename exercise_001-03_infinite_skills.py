@@ -6,5 +6,5 @@ print(first_app)
 second_app = "2. Providing your data presentation in niiiice circles."
 print(second_app)
 
-third_app = "3. I DON'T FUKCING KNOW YET."
+third_app = "3. I DON'T KNOW YET."
 print(third_app)

@@ -23,6 +23,6 @@ elif alien_color == 'red':
     print("You've killed alien leader and earned 15 points!")
 # Paul 15.05.2022 used "elif" instead of "else".
 
-'''There are at least two ways to do it:
-first is standard and simple "if"
-second is with "if-elif".'''
+# There are at least two ways to do it:
+# - first is standard and simple "if",
+# - second is with "if-elif".

@@ -6,7 +6,7 @@ if age < 2:
 elif age < 4:
     print("You're a toddler!")
 elif age < 13:
-    print("You're a kido!")
+    print("You're a kid!")
 elif age < 20:
     print("You're a teenager!")
 elif age < 65:

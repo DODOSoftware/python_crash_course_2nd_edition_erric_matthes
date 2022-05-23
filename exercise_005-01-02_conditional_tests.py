@@ -6,43 +6,43 @@ if car == 'toyota':
     print(f'\nIf car is a {car.title()} I predict False!')
     # Paul 14.05.2022 no print for you Toyota, sorry.
 
-swimmingpool = ['towel', 'flip-flops', 'cap', 'goggles', 'trunks']
+swimming_pool = ['towel', 'flip-flops', 'cap', 'goggles', 'trunks']
 
-print('\n== True with "for" loop:') # Paul 14.05.2022 == True
-for swim_item0 in swimmingpool:
+print('\n== True with "for" loop:')  # Paul 14.05.2022 == True
+for swim_item0 in swimming_pool:
     if swim_item0 == 'towel':
         print(f'We have {swim_item0}.')
-for swim_item1 in swimmingpool:
+for swim_item1 in swimming_pool:
     if swim_item1 == 'flip-flops':
         print(f'We have {swim_item1}.')
-for swim_item2 in swimmingpool:
+for swim_item2 in swimming_pool:
     if swim_item2 == 'cap':
         print(f'We have {swim_item2}.')
-for swim_item3 in swimmingpool:
+for swim_item3 in swimming_pool:
     if swim_item3 == 'goggles':
         print(f'We have {swim_item3}.')
-for swim_item4 in swimmingpool:
+for swim_item4 in swimming_pool:
     if swim_item4 == 'trunks':
         print(f'We have {swim_item4}.')
 
-print('\n== False with "for" loop:') # Paul 14.05.2022 == False
-for swim_item0 in swimmingpool:
+print('\n== False with "for" loop:')  # Paul 14.05.2022 == False
+for swim_item0 in swimming_pool:
     if swim_item0 == 'soap':
         print(f'We have {swim_item0}.')
-for swim_item1 in swimmingpool:
+for swim_item1 in swimming_pool:
     if swim_item1 == 'mattress':
         print(f'We have {swim_item1}.')
-for swim_item2 in swimmingpool:
+for swim_item2 in swimming_pool:
     if swim_item2 == 'swimming sleeves':
         print(f'We have {swim_item2}.')
-for swim_item3 in swimmingpool:
+for swim_item3 in swimming_pool:
     if swim_item3 == 'diving mask':
         print(f'We have {swim_item3}.')
-for swim_item4 in swimmingpool:
+for swim_item4 in swimming_pool:
     if swim_item4 == 'fins':
         print(f'We have {swim_item4}.')
 
-print('\n!= False without loop:') # Paul 14.05.2022 != False
+print('\n!= False without loop:')  # Paul 14.05.2022 != False
 swim_item5 = 'soap'
 if swim_item5 != 'soap':
     print('haha False')
@@ -59,7 +59,7 @@ swim_item9 = 'fins'
 if swim_item9 != 'fins':
     print('haha False')
 
-print('\n!= True without loop:') # Paul 14.05.2022 != True
+print('\n!= True without loop:')  # Paul 14.05.2022 != True
 swim_item5 = 'soap'
 if swim_item5 != 'cake':
     print("haha it's not a cake!")
@@ -76,21 +76,21 @@ swim_item9 = 'fins'
 if swim_item9 != 'book':
     print("haha it's not a book!")
 
-print('\nin True:') # Paul 15.05.2022 in True:
-if 'towel'in swimmingpool:
+print('\nin True:')  # Paul 15.05.2022 in True:
+if 'towel' in swimming_pool:
     print(f'We have towel.')
 if 'flip-flops':
     print(f'We have flip-flops.')
-if 'cap' in swimmingpool:
+if 'cap' in swimming_pool:
     print(f'We have cap.')
-if 'goggles' in swimmingpool:
+if 'goggles' in swimming_pool:
     print(f'We have goggles.')
-if 'trunks' in swimmingpool:
+if 'trunks' in swimming_pool:
     print(f'We have trunks.')
 
-print('\nnot in True:') # Paul 14.05.2022 not in True:
+print('\nnot in True:')  # Paul 14.05.2022 not in True:
 swim_item10 = 'soap'
-if swim_item10 not in swimmingpool:
+if swim_item10 not in swimming_pool:
     print(f"We don't have {swim_item10}!")
 swim_item11 = 'mattress'
 if swim_item11 not in 'mattress':
@@ -130,7 +130,9 @@ if (rabbit_1.lower() == 'rapek') or (rabbit_2.lower() == 'kofi'):
 
 print('\nPrint "and" and "or" tests with lists:')
 
-dogs = ['belgian malinois', 'dutch shepherd dog', 'german shepherd', 'swiss shepherd', 'french shepherd dog bauceron', 'american pit bull terier']
+dogs = ['belgian malinois', 'dutch shepherd dog', 'german shepherd',
+        'swiss shepherd', 'french shepherd dog bauceron',
+        'american pit bull terier']
 fav_dog = 'belgian malinois'
 
 if fav_dog in dogs:
@@ -140,7 +142,8 @@ if 'chihuahua' not in dogs:
 if 'shepherd' in dogs:      # Paul 14.05.2022 How to run test for a single word?
     print('Hey! We have shepherd dogs in list also!')
 else:                       # Paul 14.05.2022 I'll use "else" for now...
-    print("We have shepherd dogs in list also, but I don't know how to chceck for silnge word yet.")
+    print("We have shepherd dogs in list also, but I don't know how to"
+          "check for single word yet.")
 
 print('\nSimple numerical tests, starting with "if-else":')
 

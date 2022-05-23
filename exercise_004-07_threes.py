@@ -1,4 +1,4 @@
-# Exercise 004-07 Make a list of the multiples of 3 from 3 to 30.
+# Exercise 004-07 Make a list of the multiples of 3 from 3 to 30:
 
 print('List comprehensions:')
 threes = [value ** 3 for value in range(3, 31)]
@@ -12,7 +12,7 @@ threes = []
 for value in range(3, 31):
 	three = value ** 3
 	threes.append(three)
-print (threes)
+print(threes)
 
 for three in threes:
 	print(three)
@@ -24,4 +24,4 @@ for value in range(3, 31):
 print(threes)
 
 for three in threes:
-	print (three)
+	print(three)

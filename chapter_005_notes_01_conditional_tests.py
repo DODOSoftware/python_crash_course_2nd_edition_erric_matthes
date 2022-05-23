@@ -2,9 +2,9 @@
 
 '''
 
-    ==      if match: True
+    ==      if matched: True
 
-    !=      if match: False! if dosen't match: True! Simple logic right?
+    !=      if matched: False! if doesn't match: True! Simple logic right?
 
     <       strictly less than
 
@@ -29,12 +29,11 @@ for car in cars:
     else:
         print(car.title())
 
-'''NOTE: Conditional test is an expression, that can be evalueted
-as True of False, wheter the code in an "if" statement should
-be executed. If test evaluates True, than Python execute the code
-within "if", if test evaluates False, than Python ignores the code
-of the "if" statement.'''
-
+# NOTE: Conditional test is an expression, that can be evaluated
+# as True of False, whether the code in an "if" statement should
+# be executed. If test evaluates True, then Python executes the code
+# within "if", if test evaluates False, then Python ignores the code
+# of the "if" statement.
 
 print('\nSimple equality ==, and inequality != tests:')
 
@@ -62,24 +61,24 @@ if car == 'audi':
 car = 'Audi'
 if car.lower() == 'audi':
     print('\nTrue!')
-'''Paul 13.05.2022 using .lower() function if case is not the case
-in equality test. It also doesn't chage the value of the original viarable.'''
+# Paul 13.05.2022 using .lower() function if case is not the case
+# in equality test. It also doesn't change the value of the original variable.
 print(car)
 
-'''NOTE: e.g. when site user is submitted, code will change existing "John"
-into .lower() and reject any variation of it, like "john", "johN", etc.'''
+# NOTE: e.g. when site user is submitted, code will change existing "John"
+# into .lower() and reject any variation of it, like "john", "johN", etc.
 
 required_toppings = ['mushrooms', 'onion', 'cheddar cheese']
 if required_toppings != 'anchoveis':
     print('\nClient requested anchoveis.')
-'''Paul 13.05.2022 exclamation point and equal sign represent "not" phrase.
-If there is no match in "reguired_toppings" for "anchevois", than Python
-will returns with True, and execute program. If there would be match,
-than return would be False. Python checks if those
-values DO NOT MATCH EACH OTHER (True).'''
+# Paul 13.05.2022 exclamation point and equal sign represent "not" phrase.
+# If there is no match in "required_toppings" for "anchevois", than Python
+# will return with True, and execute program. If there would be match,
+# then return would be False. Python checks if those
+# values DO NOT MATCH EACH OTHER (True).
 
 
-print('\nNumerical comparisions:')
+print('\nNumerical comparisons:')
 
 age = 18
 if age == 18:
@@ -96,21 +95,22 @@ if age < 18:                       # LESS THAN (YEAH SCIENCE! - J. PINKMAN)
 if age >= 18:                      # GREATER THAN OR EQUAL
     print('VALID AGE!')
 
-print('\nChecking multipe conditions with "and":')
+print('\nChecking multiple conditions with "and":')
 # Paul 13.05.2022 - both True simultaneously.
 
 age_0 = 21
 age_1 = 21
-if (age_0 >= 21) and (age_1 >= 21): # Paul 13.05.2022 IMO parentheses look good.
+if (age_0 >= 21) and (age_1 >= 21):
+    # Paul 13.05.2022 ^ IMO parentheses looks good.
     print('Both are age 21 or more.')
 
 age_0 = 34
 age_1 = 17
 if (age_0 >= 21) and (age_1 >= 21):
-    print('Both are age 21 or more.') # one of them it's not over 21.
+    print('Both are age 21 or more.')  # one of them it's not over 21.
 
-print('\nChecking multipe conditions with "or":')
-# Paul 14.05.2022 True if either or both of tests passes
+print('\nChecking multiple conditions with "or":')
+# Paul 14.05.2022 True if either or both of tests passes.
 
 age_0 = 22
 age_1 = 18

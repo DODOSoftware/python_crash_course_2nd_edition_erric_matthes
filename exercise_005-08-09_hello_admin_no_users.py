@@ -19,9 +19,9 @@ for user in users:
 # Exercise 005-09 No users:
 
 print("\nChecking if list is empty:")
-'''Paul 19.05.2022 again variables need to be defined realier in the code! '''
+'''Paul 19.05.2022 again variables need to be defined earlier in the code! '''
 
-users = [] # Paul 20.05.2022 empty list is read as False!
+users = []  # Paul 20.05.2022 empty list is read as False!
 
 if users:
     for user in users:

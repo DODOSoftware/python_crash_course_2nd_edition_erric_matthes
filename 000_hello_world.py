@@ -9,6 +9,6 @@ print(msg_2)
 
 print('\n')
 
-print(msg_0, end = "   |   ")
-print(msg_1, end = "   |   ")
+print(msg_0, end="   |   ")
+print(msg_1, end="   |   ")
 print(msg_2)

@@ -4,7 +4,7 @@ games_list = []
 
 games_list.append('Doom')
 games_list.append('Warcraft II')
-games_list.append('Duke Nukem')
+games_list.append('Cadillacs and Dinosaurs ARCADE')
 games_list.append('TekWar')
 games_list.append('Worms')
 games_list.append('Quake')
@@ -24,6 +24,11 @@ games_list.append('Alien: Isolation')
 games_list.append('The Last of Us')
 games_list.append('God of War IV')
 
+print("Print raw list:")
+print(games_list)
+
+print('\n"if" with additional variables:')
+
 tlou_game = 'The Last of Us'
 if tlou_game in games_list:
     print(f"I just love {tlou_game}! Best game ever!")
@@ -42,11 +47,12 @@ if fallout_game in games_list:
 
 half_game = 'Half-Life'
 if half_game in games_list:
-    print(f"{half_game} is on of the best science-fiction oldschool FPS! Ahhh those vibes!")
+    print(f"{half_game} is on of the best science-fiction" 
+          f"old school FPS! Ahhh those vibes!")
 
 fifa_game = "Fifa 11"
 if fifa_game in games_list:
-    print("Ahhh great game!")
+    print("Ah great game!")
 else:
     print("Yeah like I care about Fifa and such games - it's not on my list.")
 
@@ -57,3 +63,17 @@ if warcraft_game in games_list:
 heroes_game = 'Heroes of Might and Magic III'
 if heroes_game in games_list:
     print(f"Rampart was my favorite in {heroes_game}!")
+
+print('\n"if" without additional variables:')
+
+if 'Quake' in games_list:
+    print(f"Ah, {games_list[5]}... I've played it on 486 with Win95 :D")
+if 'Quake 2' in games_list:
+    print(f"And {games_list[8]}, hours played in internet cafe with my"
+          f" friends.")
+if 'Cadillacs and Dinosaurs ARCADE' in games_list:
+    print(f'{games_list[2]} is a cool oldie XD')
+if 'Doom' in games_list:
+    print(f"Old, one of the first of its kind - {games_list[0]}!")
+if 'Rune' in games_list:
+    print(f"{games_list[15]} - I've got a clan for this one, cool old PC game!")

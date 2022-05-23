@@ -1,26 +1,26 @@
 # Chapter 004 NOTES tuples 
 
-diemnsions = (200, 50) # Paul 12.05.2022 for tuple use (), and really a coma...
+dimensions = (200, 50)  # Paul 12.05.2022 for tuple use (), and really a coma...
 print('\n\nA tuple:')
-print(diemnsions[0])
-print(diemnsions[1])
+print(dimensions[0])
+print(dimensions[1])
 
-mt = (3,) # one element in tuple
+mt = (3,)  # one element in tuple
 
 # Paul 12.05.2022 looping through tuple
-print('\nOriginal diemnsions:')
-for diemnsion in diemnsions:
-    print(diemnsion)
+print('\nOriginal dimensions:')
+for dimension in dimensions:
+    print(dimension)
 
 # Paul 12.05.2022 redefine entire tuple
 
-diemnsions = (400, 100) # redefine
-print(f'\nNew dimensions printed as list: {diemnsions}.')
+dimensions = (400, 100)  # redefined tuple
+print(f'\nNew dimensions printed as list: {dimensions}.')
 
-print('\nNew diemnsions loop:')
-for diemnsion in diemnsions:
-# and loop it (kto k**** wymyślił słowo "iteracja"?!)
-    print(diemnsion)
+print('\nNew dimensions loop:')
+for dimension in dimensions:
+    # and loop it (kto cholera wymyślił słowo "iteracja"?!)
+    print(dimension)
 
-# Paul 13.05.2022 - about time to make lenght line 80 characters in my editor.
+# Paul 13.05.2022 - about time to make length line 80 characters in my editor.
 # Paul 13.05.2022 - check for tab = 4 spaces

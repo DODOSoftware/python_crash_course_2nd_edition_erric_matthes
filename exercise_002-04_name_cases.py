@@ -1,17 +1,18 @@
-fst_name = "jan"
-lst_name = "kowalski"
-full_name = f"{fst_name} {lst_name}"
-lwr_case = full_name.lower()
-upr_case = full_name.upper()
-ttle_case = full_name.title()
+first_name = "jan"
+last_name = "kowalski"
+full_name = f"{first_name} {last_name}"
+lower_case = full_name.lower()
+upper_case = full_name.upper()
+title_case = full_name.title()
 capitalize_case = full_name.capitalize()
 
-print(lwr_case)
-print(upr_case)
-print(ttle_case)
+print(lower_case)
+print(upper_case)
+print(title_case)
 print(capitalize_case)
-# Paul 07.05.2022 - capitilize make only first letter capital!
+# Paul 07.05.2022 - capitalize make only first letter capital!
 
-print(lst_name[0:4]) #SLICING, I LIKE SLICING >:D
+print(last_name[0:4])  # SLICING, I LIKE SLICING >:D
 
-print(f"\nThe len() function will figure out length of a string. In that case, the length of 'kowalski' variable is {len(lst_name)}.\n")
+print(f"\nThe len() function will figure out length of a string."
+      f"In that case, the length of 'kowalski' variable is {len(last_name)}.\n")

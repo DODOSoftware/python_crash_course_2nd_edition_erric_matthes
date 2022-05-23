@@ -1,2 +1,2 @@
-annoucement = 'Dodo birds are not dead!'
-print(annoucement)
+announcement = 'Dodo birds are not dead!'
+print(announcement)

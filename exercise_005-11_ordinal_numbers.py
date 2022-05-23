@@ -1,6 +1,6 @@
 # Exercise 005-11 Ordinal numbers:
 
-numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) #tup-tup-tuple
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9)  # tup-tup-tuple
 
 for number in numbers:
     if number == 1:
