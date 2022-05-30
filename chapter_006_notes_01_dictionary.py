@@ -94,7 +94,6 @@ else:
 # NOTE: Thanks to this method we can change alien behavior, by changing only one
 # value in the dictionary.
 alien_0['x_position'] = alien_0['x_position'] + x_increment
-
 print(f"New x_position: {alien_0['x_position']}.")
 
 # Note that del of key-value pair is permanent!
@@ -118,4 +117,16 @@ favorite_language = {
 
 language = favorite_language['sarah'].title()
 # Creating new variable looks much cleaner.
-print(f"\nSarah's favorite language is {language}.")
+print(f"\nSarah's favorite language is {language}.\n")
+
+# Asking for nonexistent key-value pair and get() method. If there's a chance,
+# that the key, you're asking might not exist, consider using get() method
+# instead of square bracket notation, for it will not produce KeyError.
+
+alien_0 = {'color': 'green', 'speed': 'slow'}
+point_value = alien_0.get('points', 'No point value assigned.')
+print(point_value)
+
+# If you leave out the second argument in the get() method, Python will return
+# the value None, which is not an error.
+# None = no value exist.
